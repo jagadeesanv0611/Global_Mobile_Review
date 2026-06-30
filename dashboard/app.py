@@ -13,8 +13,8 @@ scaler = joblib.load(r"C:\Users\jagad\Documents\my_classes\Tasks\mini_project_4-
 
 
 # Step 2 - Sidebar:
-st.sidebar.title("📊 Global Mobile Reviews")
-page = st.sidebar.radio( "Navigate", ["Home","EDA","Mobile Recommendation System"] )
+st.sidebar.title("Global Mobile Reviews")
+page = st.sidebar.radio( "Content", ["Home","EDA","Mobile Recommendation System"] )
 
 
 # Step 3 - Home page creation:
